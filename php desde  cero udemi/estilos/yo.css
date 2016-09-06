@@ -1,0 +1,60 @@
+/*form input[type='text'];
+*/
+
+form{
+	background: orange;
+}
+form input[type='text']:focus{
+	border: 4px solid red;
+}
+.alert{
+	background: red;
+}
+.succes{
+	background: green;
+}
+/*paginado*/
+
+.contenedor{
+	width: 90%;
+	text-align: center;
+	color: #ce7f08;
+}
+.contenedor .productos{
+	margin-bottom: 20px;
+}
+.contenedor .productos ul{
+	list-style: none;
+}
+.contenedor .productos ul li{
+	border-bottom: 2px solid #c8c8c8;
+	padding: 15px 10px;
+}
+.paginacion ul{
+	list-style: none;
+}
+.paginacion ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.paginacion ul .Active a{
+	background: #ce7f08;
+}
+.paginacion ul .disabled{
+	background: #c8c8c8;
+	display: inline-block;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: #fff;
+	cursor: not-allowed;
+}
+.paginacion ul li a{
+	display: inline-block;
+	padding: 15px 25px;
+	color: #fff;
+	background: #424242;
+}
+.paginacion ul li a:hover{
+	text-decoration: none;
+	background: #3299bb;
+}
