@@ -3,7 +3,7 @@ $nohay='';
 try {
 	$cone=new PDO('mysql:host=localhost;dbname=ventas','root','');
 
-} catch (Exception $e) {
+} catch (PDOException $e) {
 	echo 'Error:'. $e->getMessage();
 	die();
 }

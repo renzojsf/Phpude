@@ -30,4 +30,13 @@ return $n1+$n2;
 include_once ('vista.php');//genera rarning
 //require ('vista.php');//faltal errorr
 die();//mata todo de abajo
+session_start()
+if ($_SESSION) {
+	$nomvre=$_SESSION['iniciadoppe'];
+}else{
+	echo "no inicio sesion";
+}
+
+$_SESSION['TIPO']='DOCENTE';
+session_destroy();
 ?>

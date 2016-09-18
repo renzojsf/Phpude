@@ -31,7 +31,6 @@
 					}
 				}
 			?>	
-
 			<?php if ($pagina==$numeropaginas):  ?>
 				<li class="disabled">&raquo;</li>
 			<?php else :?>	
